@@ -10,7 +10,7 @@ import { Component, VERSION } from '@angular/core';
     <hello [valid]="name.valid"></hello>
     <mat-form-field>
       <mat-label>Form field</mat-label>
-      <input #name="ngModel" matInput [ngModel]="value" cRequired />
+      <input #name="ngModel" matInput [ngModel]="value" required />
     </mat-form-field>
     <!-- The two following paragraphs do not reproduce the issue. -->
     <p>Valid: {{ name.valid }}</p>

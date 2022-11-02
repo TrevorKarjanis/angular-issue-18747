@@ -7,10 +7,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
-import { RequiredValidator } from './required.validator';
 
 @NgModule({
-  imports: [ 
+  imports: [
     BrowserModule,
     BrowserAnimationsModule,
     FormsModule ,
@@ -18,9 +17,8 @@ import { RequiredValidator } from './required.validator';
     MatInputModule
   ],
   declarations: [
-    AppComponent, 
-    HelloComponent,
-    RequiredValidator
+    AppComponent,
+    HelloComponent
   ],
   bootstrap: [AppComponent]
 })
