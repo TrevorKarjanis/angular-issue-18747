@@ -1,4 +1,4 @@
-# [Angular Issue 18747](https://github.com/angular/angular/issues/18748)
+# [Angular Issue 18748](https://github.com/angular/angular/issues/18748)
 
 Demonstrate binding to NgModel.valid causes a change detection error.
 
